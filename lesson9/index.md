@@ -68,45 +68,21 @@ The values `block`, `inline` and `inline-block`, are using the [Flow Layout](htt
 
 You can play around with [this example](https://codepen.io/redi-school/pen/WNarxpY) and solve [this exercise](https://codepen.io/redi-school/pen/wvYMWdE)
 
+## Quiz
 [Here](https://create.kahoot.it/share/berlin-html-css-s23-lesson-9/82fefecc-3845-483f-8759-dba7668d3f7e) a small quiz to test your knowledge.
 
 
 
 
-## 2. Introduction to Flexbox
-
-Flexbox is a comparatively newer way to layout elements on the page without the limits and frustration of the flow layout.
-Flexbox layout makes it easier to design flexible responsive layout structure (hint: Flexbox = flexible boxes).
-With flexbox, you can align elements horizontally and vertically. Unlike floats, you can re-order flex items without needing to change the HTML.
-
-A flexbox element is making the container element a block-level box and converts all the child-elements to flex-items.
-
-The most common properties that can be used on a flex container are
-- `flex-direction` (default `row`)
-- `flex-wrap` (default `nowrap`)
-- `justify-content` (default: `flex-start`)
-- `align-items` (default: `stretch`)
-- `align-content` (default: `stretch`)
-- `flex-flow`
-
-[Here](https://codepen.io/redi-school/pen/eYPJzRY) an example to play around with.
-
-
-*Important: Both flow layout and flexbox can and are used on the same website! Both have their purpose depending on the element and layout.*
-
-
-
 # Homework
 
-- Pracitising flexbox with [this exercise](https://codepen.io/redi-school/pen/jOeWrvj)
+- Finish the box model [excersise](https://codepen.io/redi-school/pen/NWOxrRL)
+- Finish the CSS layout [exercise](https://codepen.io/redi-school/pen/wvYMWdE)
 
 # Resources
 
 - [The CSS Box Model Explained by Living in a Boring Suburban Neighborhood](https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1)
-- [Flexbox with examples](https://www.w3schools.com/css/css3_flexbox.asp)
 - [CSS Layout](https://www.smashingmagazine.com/2018/05/guide-css-layout/)
 - [History of CSS Layout](https://dev.to/dianale/css-layouts-history-from-float-to-flexbox-and-grid-5af7)
-- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [MDN Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 - [Slides](https://docs.google.com/presentation/d/1-lUopHb5vePTrahBO0XBxU4MD4H07ybszNUS8CFx0To/edit?usp=sharing)
 
