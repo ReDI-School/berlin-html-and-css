@@ -1,61 +1,112 @@
 ---
-title: Lesson 9 - CSS Units & Alignment
+title: Lesson 9 - CSS Layout
 nav_order: 9
 ---
 
-# CSS Units
+# CSS Layout
 
 ## Class Agenda
 
-1. Introduction to CSS Units
-2. CSS Font Size
-3. CSS Height & Width
-4. CSS Max-width
+1. Introduction to CSS Layout
+2. Introduction to flexbox
 
-## 1. Introduction to CSS Units
 
-- What are CSS Units used for?
-- What are Absolute Length Units (cm, px, in etc.) ?
-- What are Relative Length Units (em, % etc.) ?
-- What do we mean by "absolute"? What do we mean by "relative"?
-- What are the most used units and what are the differences between them? (px vs em vs rem)
+## 1. Introduction to CSS Layout
 
-ETA: 40mins
+A website is divided into different parts, that together add to a layout. E.g. you have a header, a footer, navigation and main and side-content. All this needs can be structured with CSS.
 
-## 2. CSS Font Size
+<img width="400px" alt="Example of a layout" src="./css_layout_example.png" />
 
-- `font-size` - using some of the units
-  - Practice sizing text size using absolute unit (px)
-  - Practice sizing text size using relative unit (em or rem)
 
-ETA: 15mins
+You can use various techniques in CSS to control the layout. 
+We will focus mainly on
 
-## 3. Height & Width
+- The flow layout
+- Flexbox
+- Grid
 
-- cover sizing with units
-- cover sizing with non-numeric CSS values (e.g auto)
+There are other techniques, like positioning and using the table for layouting, which is not used anymore nowadays with more modern approaches. If you are curious, you can find some more on the history of CSS layouting [here](https://dev.to/dianale/css-layouts-history-from-float-to-flexbox-and-grid-5af7)
 
-ETA: 30mins
 
-## 4. CSS Max-Width
+## Display property
 
-- What is the difference between max-width and width?
+The most frequently used values of the `display` property are:
 
-ETA: 15mins
+- `display: block`
+- `display: inline`
+- `display: inline-block`
+- `display: flex`
+- `display: grid`
+- `display: none`
 
-# Exercise Description
+The display property defines how an element is treated on your website in regards to layout. 
+The values `block`, `inline` and `inline-block`, are using the [Flow Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout) while flex and grid have their own layout system.
 
-- Increase the font-size of the "About Me", "Education" and "Language Profiencicy" headers in your portfolio website
-- Align your profile image at the center of the page and make it 20% of the screen size (the image size should adjust on different screen-sizes)
+## Flow layout with block, inline and inline-block
 
-ETA: 10mins
+<img width="400px" alt="Example of a flow layout" src="./flow_layout.png" />
+
+### display: inline
+
+- `inline` elements behave like words in a sentence. 
+- They sit next to each other in the inline direction.
+- You can't set an explicit width and height on inline elements. Any block level margin and padding will be ignored by the surrounding elements.
+- Elements such as \<span\>, \<a\>, \<strong\>, are inline by default. 
+
+#### display: block
+
+- `block` elements create a new line for themselves. 
+- A block element will expand to the full width by default. 
+- The margin, width and height on all sides of a block element can be added
+- Elements such as \<div\>, \<h1\> and \<p\> (paragraph), are block by default. 
+
+#### display: inline-block
+
+- `inline-block` combines features of both inline and block elements
+- Inline-block elements can appear next to each other and we can set their dimensions using the width and height properties. 
+- \<img\> are the best example of default inline-block elements
+
+You can play around with [this example](https://codepen.io/redi-school/pen/WNarxpY) and solve [this exercise](https://codepen.io/redi-school/pen/wvYMWdE)
+
+[Here](https://create.kahoot.it/share/berlin-html-css-s23-lesson-9/82fefecc-3845-483f-8759-dba7668d3f7e) a small quiz to test your knowledge.
+
+
+
+
+## 2. Introduction to Flexbox
+
+Flexbox is a comparatively newer way to layout elements on the page without the limits and frustration of the flow layout.
+Flexbox layout makes it easier to design flexible responsive layout structure (hint: Flexbox = flexible boxes).
+With flexbox, you can align elements horizontally and vertically. Unlike floats, you can re-order flex items without needing to change the HTML.
+
+A flexbox element is making the container element a block-level box and converts all the child-elements to flex-items.
+
+The most common properties that can be used on a flex container are
+- `flex-direction` (default `row`)
+- `flex-wrap` (default `nowrap`)
+- `justify-content` (default: `flex-start`)
+- `align-items` (default: `stretch`)
+- `align-content` (default: `stretch`)
+- `flex-flow`
+
+[Here](https://codepen.io/redi-school/pen/eYPJzRY) an example to play around with.
+
+
+*Important: Both flow layout and flexbox can and are used on the same website! Both have their purpose depending on the element and layout.*
+
+
 
 # Homework
 
-- Practice how to use at least 5 CSS units each for relative and absolute length units
+- Pracitising flexbox with [this exercise](https://codepen.io/redi-school/pen/jOeWrvj)
 
 # Resources
 
-- [CSS Units](https://www.w3schools.com/css/css_units.asp)
-- [CSS Layout - width and max-width](https://www.w3schools.com/css/css_max-width.asp)
-- [Differences between main CSS units px,em and rem](https://chiamakaikeanyi.dev/sizing-in-css-px-vs-em-vs-rem/)
+- [The CSS Box Model Explained by Living in a Boring Suburban Neighborhood](https://www.freecodecamp.org/news/css-box-model-explained-by-living-in-a-boring-suburban-neighborhood-9a9e692773c1)
+- [Flexbox with examples](https://www.w3schools.com/css/css3_flexbox.asp)
+- [CSS Layout](https://www.smashingmagazine.com/2018/05/guide-css-layout/)
+- [History of CSS Layout](https://dev.to/dianale/css-layouts-history-from-float-to-flexbox-and-grid-5af7)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [MDN Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [Slides](https://docs.google.com/presentation/d/1-lUopHb5vePTrahBO0XBxU4MD4H07ybszNUS8CFx0To/edit?usp=sharing)
+
