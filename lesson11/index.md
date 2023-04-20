@@ -210,3 +210,7 @@ You should use this as an opportunity to put together all of the concepts we've 
 
 1. Make sure you are comfortable creating files and folders on your computer. Watch [Computer Skills Course: File Management, Part 1](https://www.youtube.com/watch?v=k-EID5_2D9U) and [Computer Skills Course: File Management, Part 2](https://www.youtube.com/watch?v=DGd48PGbnBs) if you are unsure or would like to review. Note that you can turn on subtitles if you're having a hard time understanding him or hear some new words you're not familiar with!
 1. Start working on the project!
+
+# Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT6WYqz9Q3dmvBzCmCYRXPTv4DoUMbnvKSNJXMN3Gl1CTKGvY86w5-JpEo9c9heJTFzq-Urf04YWdaw/embed" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
