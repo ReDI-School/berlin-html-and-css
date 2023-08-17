@@ -1,0 +1,32 @@
+.grid-container {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "header   header header"
+    "sidebar  main   main"
+    "sidebar  main   main"
+    "sidebar  footer footer";
+}
+
+.header {
+  grid-area: blue;
+  background-color: blue;
+}
+
+.sidebar {
+  grid-area: red;
+  background-color: red;
+}
+
+.main {
+  grid-area: white;
+  background-color: white;
+}
+
+.footer {
+  grid-area: green;
+  background-color: green;
+}
