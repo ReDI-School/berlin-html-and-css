@@ -8,8 +8,7 @@ nav_order: 16
 ## Class Agenda
 
 1. What is Responsive Design?
-1. What are Media Queries?
-1. Using Media Queries
+1. Introduction to Media Queries
 
 ## What is Responsive Design? 
 
@@ -17,14 +16,12 @@ Responsive web design is about creating web pages that look good on all devices!
 
 That is achieved by structuring your HTML and adding CSS such that components of your page are resized appropriately for screen sizes.
 
-It is important to understand that responsive web design isn't a separate technology — it is a term used to describe an approach to web design or a set of best practices, used to create a layout that can respond to the device being used to view the content. These approaches can include
+It is important to understand that responsive web design isn't a separate technology — it is a term used to describe an approach to web design or a set of best practices, used to create a layout that can respond to the device being used to view the content. These approaches can include:
 
 - Making containers fluid by setting `max-width: 100%`
 - Using relative units for typography (`em`, `rem`)
-- Using CSS Flexbox or CSS Grid to create responsive layouts
+- Using CSS Flexbox or CSS Grid to create layouts that grow and shrink smoothly
 - Using media queries to change styles on different viewports
-
-
 
 ### Relative Units
 
@@ -97,7 +94,7 @@ Solve all of the problems in [this CodePen](https://codepen.io/redi-school/pen/O
 
 Media queries are a fundamental aspect of creating responsive web designs, which allow websites to adapt to different devices and screen sizes.
 
-In this lesson, we'll explore how media queries work and how you can use them to create layouts that look great on both desktop and mobile devices.
+We'll explore how media queries work and how you can use them to create layouts that look great on both desktop and mobile devices.
 
 While desktop computers were once the primary way people connected to the internet, the rise of smartphones has dramatically changed the game. Today, most people use their smartphones to access the internet. Mobile internet usage has surpassed desktop usage in recent years, and this trend is only expected to continue.
 
@@ -134,16 +131,19 @@ Some mobile devices and other narrow screens render pages in a virtual window or
 
 Without this tag, the browser may use a default viewport size, which can cause media queries to work incorrectly.
 
-### Exercise
+### Exercises
 
-Start a new project in your IDE. you’ll need at least one HTML file, and a CSS file. For your HTML, create a simple page layout. For example:
+- Exercise 1: [CodePen](https://codepen.io/redi-school/pen/RwvLYOz?editors=1100)
+- Exercise 2: [CodePen](https://codepen.io/redi-school/pen/QWYqZqq?editors=1100)
 
-A title section with some links
-3-4 sections containing text and images
+# Homework
 
-Next use some Media queries to make some changes across different breakpoints.
-
-If making a whole page responsive feels overwhelming, try just laying out some divs with different sizes and colours, and set those to different values in your media queries. Once you’re comfortable with that, try building a basic page layout (header with links, a section or two, a footer) then make them responsive!
+1. (15 - 30min) Using pencil and paper, create a mobile-first design (in other words: draw it for a phone screen, then for a desktop) for a news webpage with the following elements:
+    1. Navigation bar
+    1. Main section
+        - Contains at least two different “types” of section, e.g. ⅓ + ⅔ with image and text and a three-column layout
+    1. Footer
+1. (90 - 120min) Implement your design, starting with the mobile view. Focus on making one complete element (i.e. nav, section 1, section 2, footer) at a time so you get practice with media queries!
 
 # Glossary & Terminology
 
@@ -154,16 +154,6 @@ If making a whole page responsive feels overwhelming, try just laying out some d
 - `media type` - Describes the device category, for example `screen`, `print`, or `all`.
 - `media feature` - Describe specific characteristics of the device, such as min-width or max-width.
 
-# Homework
-
-1. For the following 3 websites, use your browser’s dev tools to change the viewport width widths and make a list of as many changes as you can spot at different widths (layout, font size, navigation, etc.):
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
-- [MDN HTML docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [YouTube](https://youtube.com)
-
-2. TKTK - something around adding media queries to achieve a specific layout
-
 # Resources
 
 - [MDN Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
@@ -173,4 +163,4 @@ If making a whole page responsive feels overwhelming, try just laying out some d
 
 # Slides
 
-<iframe src="https://docs.google.com/presentation/d/1AkNMFqZrDZrenNuzXGQh9Q7X3MzhXScbCTQnyApRgLQ/embed" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5eT0kbHjnErRPucTw_70Mx9cSiqu3Os99HwfToclD5T0C2KVUU481P5a8oCI71k8XpcOgio0Eiu5P/embed" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
