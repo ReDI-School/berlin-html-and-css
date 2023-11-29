@@ -1,80 +1,48 @@
----
-title: Lesson 19 - Project + Importing Libraries for Icons & Fonts
-nav_order: 19
----
-
-# Project + Importing Libraries for Icons & Fonts
-
-## Agenda
-
-1. Learn about icons and how to import and manipulate them 😎
-2. Learn about importing new fonts 
-3. Learn about best practices of importing libraries 😉
-4. Practice! 
-5. Time to work on projects!
-
-
-## 1. How do CSS libraries work?
-
+Project + Importing Libraries for Icons & Fonts
+Agenda
+Learn about icons and how to import and manipulate them 😎
+Learn about importing new fonts
+Learn about best practices of importing libraries 😉
+Practice!
+Time to work on projects!
+1. How do CSS libraries work?
 CSS library gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
 
-Useful resources
-Icons:
-Font Awesome
-Bootstrap Icons
+Useful resources Icons: Font Awesome Bootstrap Icons
 
-Fonts 
-Google Fonts
+Fonts Google Fonts
 
+2. Icons
+What do you need ICONS for? Because they Optimize Navigation
 
-## 2. Icons
-
-What do you need ICONS for?
-Because they Optimize Navigation
-- Help communicate concepts
-- Make browsing a website simpler
-- Improve user experience
-- Icons can be formatted like text including shadows and reliefs, layers, geometric, 3D effects, etc. 
-- Can make websites look more professional
-
-## 3. Adding Icons from FontAwesome
-
-Create a free account on Font Awesome;
-Create a personal Kit 
-Copy the unique Kit embed code and paste it into the <head> of your project's HTML file or template.
-Start placing icons in your HTML's <body>
-Ex: <i class="fa-solid fa-house"></i>
-Color, size, rotate, animate, transform icons with ease! 
+Help communicate concepts
+Make browsing a website simpler
+Improve user experience
+Icons can be formatted like text including shadows and reliefs, layers, geometric, 3D effects, etc.
+Can make websites look more professional
+3. Adding Icons from FontAwesome
+Create a free account on Font Awesome; Create a personal Kit Copy the unique Kit embed code and paste it into the of your project's HTML file or template. Start placing icons in your HTML's Ex: Color, size, rotate, animate, transform icons with ease!
 
 Icons Demo
 
-## 4. Adding Google Fonts
-
-Go to https://fonts.google.com/
-Pick up a font-family you like 
-Select the required styling option
-Import to HTML head using <link> 
-Specify the font family and use
+4. Adding Google Fonts
+Go to https://fonts.google.com/ Pick up a font-family you like Select the required styling option Import to HTML head using Specify the font family and use
 
 Fonts Demo
 
-## 5. Excersise - 15min
-
+5. Excersise - 15min
 Practice by adding fonts and icons to your projects!
 
-# Key Takeaways
+Key Takeaways
+Libraries are useful collections of basic structures. Libraries need to be imported to connected (via ) Icons should be treated as text and all text properties will apply on the icons as well. Remember to import the required stylings of font when using external libraries
 
-Libraries are useful collections of basic structures.
-Libraries need to be imported to connected (via <link>)
-Icons should be treated as text and all text properties will apply on the icons as well.
-Remember to import the required stylings of font when using external libraries
-
-# Homework
-
+Homework
 Keep working on projects, you should be able to add google fonts, icons, and some bootstrap items (ex. navbar, buttons, etc)
 
-# Resources
+Resources
+<ul>
+  <li>https://icons.getbootstrap.com/</li>
+  <li> https://fontawesome.com/ </li>
+  <li>https://fonts.google.com/</li>
+</ul>
 
-https://icons.getbootstrap.com/
-https://fontawesome.com/
-https://fonts.google.com/
