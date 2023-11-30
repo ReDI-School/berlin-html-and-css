@@ -1,58 +1,80 @@
 ---
-title: Lesson 19 - Web Accessibility
+title: Lesson 19 - Project + Importing Libraries for Icons & Fonts
 nav_order: 19
 ---
 
-# Web Accessibility
+# Project + Importing Libraries for Icons & Fonts
 
 ## Agenda
 
-1. Introduction to Accessibility
-1. Classification of disabilities and assistive technologies
-1. Accessibility guidelines
-1. WAI-ARIA
-1. Accessibility checkers
+1. Learn about icons and how to import and manipulate them 😎
+2. Learn about importing new fonts 
+3. Learn about best practices of importing libraries 😉
+4. Practice! 
+5. Time to work on projects!
 
-## 1. Introduction to Accessibility
 
-Accessibility means that **any** user can use all the features and the content of a particular software, regardless of how the user accesses it, especially if they are physically or cognitively impaired. In this section we are going to cover the main aspects of accessibility together with the biggest benefits it provides to you and to your users.
+## 1. How do CSS libraries work?
 
-## 2. Classification of disabilities and assistive technologies
+CSS library gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
 
-The topic of accessibility is very huge. There are many different disabilities and impairments which need to be considered in order to provide corresponding technical solutions. Therefore, we would try to classify the most common impairments which potential users could have so that we also try to apply a better designed solution for those cases. We would learn how we as developers can help people with:
+Useful resources
+Icons:
+Font Awesome
+Bootstrap Icons
 
-- visual impairments
-- hearing impairments
-- mobility impairments
-- cognitive impairments
+Fonts 
+Google Fonts
 
-## 3. Accessibility guidelines
 
-Without going into too many concrete details, we would look at some top level accessibility guidelines which we should be aware of. These are important to keep in mind and try to follow in our projects. We would also look at some examples of good and bad HTML code and how it can affect the results of a Screen Reader, for example.
+## 2. Icons
 
-## 4. WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications)
+What do you need ICONS for?
+Because they Optimize Navigation
+- Help communicate concepts
+- Make browsing a website simpler
+- Improve user experience
+- Icons can be formatted like text including shadows and reliefs, layers, geometric, 3D effects, etc. 
+- Can make websites look more professional
 
-WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications) is a specification written by the W3C, defining a set of additional HTML attributes that can be applied to elements to provide additional semantics and improve accessibility wherever it is lacking. We would learn about the three main features defined by the specification: `roles`, `properties` and `states`
+## 3. Adding Icons from FontAwesome
 
-## 5. Accessibility checkers
+Create a free account on Font Awesome;
+Create a personal Kit 
+Copy the unique Kit embed code and paste it into the <head> of your project's HTML file or template.
+Start placing icons in your HTML's <body>
+Ex: <i class="fa-solid fa-house"></i>
+Color, size, rotate, animate, transform icons with ease! 
 
-Modern browsers provide an automated way for checking whether your website follows a certain set of standardized accessibility rules. We would look at Google Chrome Lightroom and use it with our own website
+Icons Demo
 
-# Glossary & Terminology
+## 4. Adding Google Fonts
 
-- `Accessibility` - Accessibility means that **any** user can use all the features and the content of a particular software, regardless of how the user accesses it
-- `WAI-ARIA` - Web Accessibility Initiative - Accessible Rich Internet Applications is a technology that can help with such problems by adding in further semantics that browsers and assistive technologies can recognize and use to let users know what is going on. [Read more about this technology here.](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
-- `WCAG` - Web Content Accessibility Guidelines is developed by W3C and covers a wide range of recommendations for making Web content more accessible.
+Go to https://fonts.google.com/
+Pick up a font-family you like 
+Select the required styling option
+Import to HTML head using <link> 
+Specify the font family and use
+
+Fonts Demo
+
+## 5. Excersise - 15min
+
+Practice by adding fonts and icons to your projects!
+
+# Key Takeaways
+
+Libraries are useful collections of basic structures.
+Libraries need to be imported to connected (via <link>)
+Icons should be treated as text and all text properties will apply on the icons as well.
+Remember to import the required stylings of font when using external libraries
 
 # Homework
 
-1. Look at your own code and think about whether it satisfies the basic accessibility guidelines. Also, test your websites with the help of Google Chrome's Lightroom
+Keep working on projects, you should be able to add google fonts, icons, and some bootstrap items (ex. navbar, buttons, etc)
 
 # Resources
 
-- [MDN Accessibility Tutorial](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-- [Screen Reader Demo](https://www.youtube.com/watch?v=dEbl5jvLKGQ)
-- [Using an IPhone with screen readers](https://www.youtube.com/watch?v=wueLXCbm_KY)
-- [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
-- [WCAG - Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [WCAG - Cheat sheet](https://www.w3.org/WAI/standards-guidelines/wcag/glance/)
+https://icons.getbootstrap.com/
+https://fontawesome.com/
+https://fonts.google.com/
