@@ -80,7 +80,8 @@ For #1 - 4, see the slides linked below (there's additional info in the speaker 
 # Homework
 
 1. Type all of the characters from the glossary section into the CodePen you created during class (do NOT copy/paste - you need to be able to type these!)
-2. Share your CodePen in the #s23_html_css channel in Slack
+2. Add one or more tags with headings <h1>, <h2>, <h3> and paragraph <p> on Codepen, [example](https://codepen.io/redi-school/pen/JjVRpgL?editors=1000)
+3. Share your CodePen in the #s23_html_css channel in Slack
 
 **Due: Tuesday at the beginning of class**. Don’t stress out if you have problems - we can work together to resolve them! But it’s important that you try so that we know if you need help :)
 
@@ -95,4 +96,4 @@ What should you do if you get stuck?
 
 # Slides
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5T9BvtwFILIpchxuHpoJE3kq76FN_v_Baar14JqzU2LyYNyJqnpADuAOu0z6XaFfQq4piqoMk6XQv/embed" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMH8IuVEJBio9KFh45Fq356AfSinmLyfDm18Xes-b2IF8Ak7Bea9-XtQlccF0zgcFheMZRlXcdYBYe/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
