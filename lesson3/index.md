@@ -301,10 +301,12 @@ Key Points:
 5. **SEO**: Search engines use headings to understand the content of a page. Properly structured headings can positively affect your site's search engine ranking.
 6. **Use as Needed**: Use the appropriate heading level for the importance of the content. Don't skip levels (e.g., going from `<h2>` to `<h4>` without using `<h3>`).
 
-## Pens
+## Exercise
 
-
+In class:
 * [Simple HTML elements: Find and fix all mistakes](https://codepen.io/redi-school/pen/GRLWGmW?editors=1000) ([Solution](https://codepen.io/redi-school/pen/xxaQoWz))
+
+* Extras:
 * [Wheel of Fortune](https://codepen.io/redi-school/pen/VwGVqKw)
 * [Updating a simple blog page](https://codepen.io/redi-school/pen/ZEMmVmw) ([Solution](https://codepen.io/redi-school/pen/mdGQNmP))
 * [Comments](https://codepen.io/redi-school/pen/QWVJPjM) ([Solution](https://codepen.io/redi-school/pen/rNZQXRg))
