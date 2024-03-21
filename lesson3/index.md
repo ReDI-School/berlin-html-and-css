@@ -340,3 +340,8 @@ Assignment:
 - void element
 - list
 - comments 
+
+
+Slides
+
+<iframe src="https://docs.google.com/presentation/d/1swUsuPFlwGsAER3ikimfS-Nd8KG1M-vPjHRTmn_sGBU/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
