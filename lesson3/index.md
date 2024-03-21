@@ -303,7 +303,8 @@ Key Points:
 
 ## Pens
 
-* [Simple HTML elements: Find and fix all mistakes](https://codepen.io/redi-school/pen/VwGVVNJ) ([Solution](https://codepen.io/redi-school/pen/xxaQoWz))
+
+* [Simple HTML elements: Find and fix all mistakes](https://codepen.io/redi-school/pen/GRLWGmW?editors=1000) ([Solution](https://codepen.io/redi-school/pen/xxaQoWz))
 * [Wheel of Fortune](https://codepen.io/redi-school/pen/VwGVqKw)
 * [Updating a simple blog page](https://codepen.io/redi-school/pen/ZEMmVmw) ([Solution](https://codepen.io/redi-school/pen/mdGQNmP))
 * [Comments](https://codepen.io/redi-school/pen/QWVJPjM) ([Solution](https://codepen.io/redi-school/pen/rNZQXRg))
@@ -314,8 +315,7 @@ Bonus Pens we didn't cover:
 
 ## Quiz
 
-* [Quiz 1](https://create.kahoot.it/share/html-css-lesson-3-short-warm-up-quiz/fe0f52ca-e48b-42fe-aa46-bfd6e1963839) / [live](https://kahoot.it/?pin=2630819&refer_method=link)
-* [Quiz 2](https://create.kahoot.it/share/html-css-lesson-3-quiz-on-the-building-blocks-of-html/a432307c-be9b-472b-abc0-42d04751ffb2) / [live](https://kahoot.it/?pin=9441788&refer_method=link)
+* [Quiz](https://create.kahoot.it/share/lesson-3-html-css-lesson-3-quiz-on-the-building-blocks-of-html/5aeef43f-74c4-4ce1-a7ff-d60fa1285f92) / [live](https://kahoot.it/?pin=9441788&refer_method=link)
 
 * Match the HTML tags on the left with their descriptions on the right.  
   `<p>`:            a. Used for creating lists with numbered points.  
@@ -329,8 +329,12 @@ Bonus Pens we didn't cover:
 
 ## Homework
 
-[You can find today's homework on CodePen: "Hi!"](https://codepen.io/redi-school/pen/JjaexdX)
+[You can find today's homework on CodePen: Build your own HTML page](https://codepen.io/redi-school/pen/xxeqzJw?editors=1000)
 
 Assignment:
-1. Format the code, so you can get a better idea of its structure
-2. Try to display your initials (or two letters of your choice)
+1. Build a basic HTML page using the following elements:
+- headers
+- paragraph
+- void element
+- list
+- comments 
