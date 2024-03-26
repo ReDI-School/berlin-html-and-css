@@ -163,3 +163,9 @@ Here is an image of what your recipe could look like:
 If you want more practice with HTML tables, complete this exercise:
 
 [https://codepen.io/redi-school/pen/WNgVQoE](https://codepen.io/redi-school/pen/WNgVQoE)
+
+Slides
+
+<iframe src="https://docs.google.com/presentation/d/1usfbSeF-b0dv9Asb28ZbTjn3Gyg0a1Msho4kk1_M_m4/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
