@@ -83,7 +83,11 @@ For #1 - 4, see the slides linked below (there's additional info in the speaker 
 2. Add one or more tags with headings <h1>, <h2>, <h3> and paragraph <p> on Codepen, [example](https://codepen.io/redi-school/pen/JjVRpgL?editors=1000)
 3. Share your CodePen in the #s23_html_css channel in Slack
 
-**Due: Tuesday at the beginning of class**. Don’t stress out if you have problems - we can work together to resolve them! But it’s important that you try so that we know if you need help :)
+**Due: Tuesday at the beginning of class**.
+
+ Don't Worry About Mistakes: If you encounter any issues, don't stress! We will work together in class to resolve them.
+
+Why It's Important: Attempting the assignment will help us identify if you need further assistance. Your effort is key to your learning! :)
 
 # Resources
 
