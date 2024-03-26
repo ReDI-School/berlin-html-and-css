@@ -138,7 +138,7 @@ h1 {
 Fork this CodePen and make the changes requested in the comments of the HTML and CSS section.
 1. Create a TOC for the web page HTML structure of Lesson 5 with the ordered <ol> list in Codepen. The list should contain the title and subtitles of the section heading <h1>, <h2>, <h3> elements. [Link to the exercise](https://codepen.io/redi-school/pen/RwOZWKp).
 2. Create the same TOC for the web page HTML structure Lesson 5 with the table <table> element in Codepen. The list contains the title and subtitles of the section heading <h1>, <h2>, <h3> elements. The table cells contains the title and subtitles of the section heading <h1>, <h2>, <h3> elements and their consecutive number of levels. [Link to the exercise.](https://codepen.io/redi-school/pen/rNbzOYX)
-3. Edit HTML & CSS according to the comments. For this third exercise you do not have to modify the HTML at all! [[Link to the exercise.](https://codepen.io/redi-school/pen/bGxywzN)
+3. Edit HTML & CSS according to the comments. For this third exercise you do not have to modify the HTML at all! [Link to the exercise.](https://codepen.io/redi-school/pen/bGxywzN)
 
 # Homework
 
