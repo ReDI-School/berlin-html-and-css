@@ -1,6 +1,6 @@
 ---
-title: Lesson 19 - Project + Importing Libraries for Icons & Fonts
-nav_order: 19
+title: Lesson 15 - Project + Importing Libraries for Icons & Fonts
+nav_order: 15
 ---
 
 # Project + Importing Libraries for Icons & Fonts
@@ -75,6 +75,9 @@ Keep working on projects, you should be able to add google fonts, icons, and som
 
 # Resources
 
-https://icons.getbootstrap.com/
+https://getbootstrap.com/
 https://fontawesome.com/
 https://fonts.google.com/
+
+https://docs.google.com/presentation/d/15uSftrjV2X1G6QAFkyGrS_W0p5Vn0GH2JEP_3diZMW4/edit?usp=sharing
+
