@@ -79,5 +79,5 @@ https://getbootstrap.com/
 https://fontawesome.com/
 https://fonts.google.com/
 
-https://docs.google.com/presentation/d/15uSftrjV2X1G6QAFkyGrS_W0p5Vn0GH2JEP_3diZMW4/edit?usp=sharing
+<iframe src="https://docs.google.com/presentation/d/15uSftrjV2X1G6QAFkyGrS_W0p5Vn0GH2JEP_3diZMW4/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
