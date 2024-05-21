@@ -9,10 +9,10 @@ nav_order: 15
 ## Agenda
 
 1. Learn about icons and how to import and manipulate them 😎
-2. Learn about importing new fonts 
-3. Learn about best practices of importing libraries 😉
-4. Practice! 
-5. Time to work on projects!
+2. Learn about importing new fonts
+3. Learn about bootstrap
+4. Learn about best practices of importing libraries 😉
+5. Practice! 
 
 
 ## 1. How do CSS libraries work?
@@ -20,11 +20,8 @@ nav_order: 15
 CSS library gives web developers a basic structure, which includes grid, interactive UI patterns, web typography, tooltips, buttons, form elements, icons. This structure helps web developers to start quickly and efficiently when they are designing a website or web applications.
 
 Useful resources
-Icons:
 Font Awesome
-Bootstrap Icons
-
-Fonts 
+Bootstrap 
 Google Fonts
 
 
@@ -59,9 +56,14 @@ Specify the font family and use
 
 Fonts Demo
 
-## 5. Excersise - 15min
+## 5. Bootstrap
+Include Bootstrap’s CSS and JS. Place the <link> tag in the <head> for our CSS, and the <script> tag for our JavaScript bundle (including Popper for positioning dropdowns, poppers, and tooltips) before the closing </body>.
+CSS	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+JS	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
 
-Practice by adding fonts and icons to your projects!
+Excersise - 15min
+
+Practice by adding fonts, bootstrap components,  and icons!
 
 # Key Takeaways
 
@@ -72,7 +74,16 @@ Remember to import the required stylings of font when using external libraries
 
 # Homework
 
-Keep working on projects, you should be able to add google fonts, icons, and some bootstrap items (ex. navbar, buttons, etc)
+Keep working on your webpage template! Think about what you might want to do for your final project. Use this as a learning experience!
+Websites should include:
+Html file(at least 2)
+CSS file (how do we connect this to html? 🧐)
+Navbar
+Linking between pages (with back button!)
+Icons (fontawesome - try using animation 😀 )
+Google fonts (use at least 2 for different elements)
+Use anything else you want to try out!
+
 
 # Resources
 
@@ -80,5 +91,5 @@ https://getbootstrap.com/
 https://fontawesome.com/
 https://fonts.google.com/
 
-<iframe src="https://docs.google.com/presentation/d/15uSftrjV2X1G6QAFkyGrS_W0p5Vn0GH2JEP_3diZMW4/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXve8JsIrWOwkmycGAcqPPOX2GWbOvPUNtmlRhjgcYmWlTViOALSDxtlLiz5YapzRsOMOFRyMsrKG2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
