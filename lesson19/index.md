@@ -1,5 +1,5 @@
 ---
-title: Lesson 15 - Project + Importing Libraries for Icons & Fonts
+title: Lesson 15 - Importing Libraries Icons, Fonts, and more!
 nav_order: 15
 ---
 
