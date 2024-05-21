@@ -1,6 +1,8 @@
 ---
-title: Lesson 15 - Importing Libraries Icons, Fonts, and more!
-nav_order: 15
+I removed this file from the order but I don't want to delete it
+
+title:  - Importing Libraries Icons, Fonts, and more!
+nav_order:
 ---
 
 # Project + Importing Libraries for Icons & Fonts
