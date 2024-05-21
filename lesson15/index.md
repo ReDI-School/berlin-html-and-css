@@ -1,10 +1,10 @@
 ---
 title: "Lesson 15 - Linking: Pages, Files, Fonts"
-nav_order: 15
+nav_order: 
 ---
 
 # Lesson 15 - Linking: Pages, Files, Fonts
-
+No longer available in queue but i didn't want to delete
 ## **Class Agenda**
 
 1.  Introduction.
